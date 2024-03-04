@@ -70,11 +70,9 @@
     - HuggingFace의 한국어 맞춤법 교정 모델을 사용하여 구현
         - 참고 : https://huggingface.co/Soyoung97/gec_kr/blob/main/README.md?code=true
         - **단, 해당 모델에서 사용된 데이터셋은 상업적으로 사용 불가하다 함**
-            
             ⇒ 다른 맞춤법 수정 모듈(부산대 맞춤법 수정 등)도 상업적 이용은 불가하다 적혀있음
-            
             ⇒ 실제 상업적으로 이용할 때에는 직접 데이터셋을 만들어 구현해야 함
             
     - 실제 적용 페이지
-      
+        - ![작문하기](img/is_correct.png)
 
