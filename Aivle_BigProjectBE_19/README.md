@@ -23,6 +23,15 @@
 - BackEnd : **Django RestFramework, OAuth(네이버, 카카오)**
 - AI : **OpenAI API, Langchain, Paddle OCR, Whisper, GTTs**
 
+## 프로그램 구조 설명
+- AI 모듈은 Study 파일에 존재함
+    - gpt.py : 프롬프트 엔지니어링(Few Shot)을 활용하여 문장 생성 및 문제 생성
+    - new_gpt.py : 파인튜닝 모델을 활용하여 문장 생성 및 문제 생성
+        - 실제 프로젝트에서 사용한 모델 : ft:gpt-3.5-turbo-1106:personal::8aztbxTn
+    - spell_correct.py : 작문하기 기능에서 맞춤법 검사 모듈
+    - text_speech.py : Whisper-Large v2 사용 모델 및 코사인 유사도를 활용한 채점 모듈
+    - views.py : AI 각 모듈에 대한 API 모듈과 Paddle OCR을 활용한 OCR 모듈
+
 ## 핵심 구현 내용
 - **프롬프트 엔지니어링**
     - 초기에는 프롬프트 엔지니어링을 통해 문장을 생성 ⇒ 이후 Langchain을 통해 Json 포멧으로 변환
