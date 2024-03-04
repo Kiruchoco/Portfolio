@@ -32,6 +32,12 @@
     - spell_correct.py : 작문하기 기능에서 맞춤법 검사 모듈
     - text_speech.py : Whisper-Large v2 사용 모델 및 코사인 유사도를 활용한 채점 모듈
     - views.py : AI 각 모듈에 대한 API 모듈과 Paddle OCR을 활용한 OCR 모듈
+    
+### 기타 백엔드 모듈
+ - accounts : 로그인 및 회원가입 모듈
+ - board : 커뮤니티 페이지
+ - notice : 공지사항 페이지
+ - rank : 랭킹 페이지
  
 ## 기술 스택 및 아키텍쳐
 - FrontEnd : **React**
