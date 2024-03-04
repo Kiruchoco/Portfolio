@@ -1,0 +1,59 @@
+{
+  "homepage": "https://yewon-saurus.github.io/Aivle_BigProjectFE_19/",
+  "name": "liquest",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "@nextui-org/react": "^2.2.9",
+    "@react-spring/web": "^9.7.3",
+    "@react-stately/data": "^3.11.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@uiw/react-md-editor": "^4.0.2",
+    "axios": "^1.6.2",
+    "create-react-app": "^5.0.1",
+    "framer-motion": "^10.16.16",
+    "gh-pages": "^6.1.1",
+    "jwt-decode": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-file-drop": "^3.1.6",
+    "react-icons": "^4.12.0",
+    "react-kr-typing-anim": "^0.1.0",
+    "react-router-dom": "^6.21.0",
+    "react-scripts": "5.0.1",
+    "rehype-sanitize": "^6.0.0",
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.21"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}
