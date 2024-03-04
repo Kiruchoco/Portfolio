@@ -38,7 +38,7 @@
         - 참고자료 : https://aider.chat/docs/benchmarks-speed-1106.html
           
     - 데이터 셋 구성
-        - ![데이터셋](img/datasets.png)
+        - <img src="img/datasets.png" alt="데이터 셋" width="500" height="300">
       
     - 파인튜닝 결과
         - Train : loss = 0.4723, accuracy = 0.8532
