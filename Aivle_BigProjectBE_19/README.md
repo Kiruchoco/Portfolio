@@ -38,7 +38,7 @@
         - 참고자료 : https://aider.chat/docs/benchmarks-speed-1106.html
           
     - 데이터 셋 구성
-          ![데이터셋](img/datasets.png)
+        - ![데이터셋](img/datasets.png)
       
     - 파인튜닝 결과
         - Train : loss = 0.4723, accuracy = 0.8532
@@ -46,24 +46,24 @@
         - ![파인튜닝결과](img/fine_tune.png)
           
     - 실제 문장 생성 결과
-    - ![문장생성결과](img/result.png)
+        - ![문장생성결과](img/result.png)
       
     - 실제 적용 페이지
-    - ![적용페이지](img/gen_quiz.png)
+        - ![적용페이지](img/gen_quiz.png)
       
 - **Paddle OCR을 활용한 OCR 모듈 구현**
     - 실제로 한국어에 대해서는 Clova X의 OCR이 정확했지만, 비용적인 측면이나 이후 파인튜닝이 가능하다는 점에서 Paddle OCR을 통해 구현하기로 결정
     - 모듈 수행 과정
-      ![OCR](img/OCR.png)
+        - ![OCR](img/OCR.png)
     - 실제 적용 페이지
-      ![OCR실제](img/OCR_Result.png)
+        - ![OCR실제](img/OCR_Result.png)
 
 - **Whisper를 활용한 STT 모듈 구현**
     - 다른 STT 모듈에 비해 비교적 정확한 성능을 가지고 있음
     - 사용한 모델 : Whisper Large-v2 모델
     - 실제 Whisper 에서 발표한 성능 지표**(약 6.5% 단어 오류율) => ** https://raw.githubusercontent.com/openai/whisper/main/language-breakdown.svg 참고
     - 실제 적용 페이지
-      ![Whisper](img/STT.png)
+        - ![Whisper](img/STT.png)
 
       
       
