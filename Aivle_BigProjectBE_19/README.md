@@ -43,13 +43,13 @@
     - 파인튜닝 결과
         - Train : loss = 0.4723, accuracy = 0.8532
         - Validation : loss = 0.5651, accuracy = 0.5955
-          ![파인튜닝결과](img/fine_tune.png)
+        - ![파인튜닝결과](img/fine_tune.png)
           
     - 실제 문장 생성 결과
-      ![문장생성결과](img/result.png)
+    - ![문장생성결과](img/result.png)
       
     - 실제 적용 페이지
-      ![적용페이지](img/gen_quiz.png)
+    - ![적용페이지](img/gen_quiz.png)
       
 - **Paddle OCR을 활용한 OCR 모듈 구현**
     - 실제로 한국어에 대해서는 Clova X의 OCR이 정확했지만, 비용적인 측면이나 이후 파인튜닝이 가능하다는 점에서 Paddle OCR을 통해 구현하기로 결정
