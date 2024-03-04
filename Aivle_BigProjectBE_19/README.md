@@ -44,10 +44,9 @@
         - Train : loss = 0.4723, accuracy = 0.8532
         - Validation : loss = 0.5651, accuracy = 0.5955
           <img src="img/fine_tune.png" alt="파인튜닝 결과" width="700" height="300">
-        
           
     - 실제 문장 생성 결과
-        - ![문장생성결과](img/result.png)
+          <img src="img/result.png" alt="문장생성결과" width="700" height="700">
       
     - 실제 적용 페이지
         - ![적용페이지](img/gen_quiz.png)
