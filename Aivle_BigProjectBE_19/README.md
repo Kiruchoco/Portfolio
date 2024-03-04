@@ -38,15 +38,15 @@
         - 참고자료 : https://aider.chat/docs/benchmarks-speed-1106.html
           
     - 데이터 셋 구성
-          <img src="img/datasets.png" alt="데이터 셋" width="500" height="200">
+          - <img src="img/datasets.png" alt="데이터 셋" width="500" height="200">
       
     - 파인튜닝 결과
         - Train : loss = 0.4723, accuracy = 0.8532
         - Validation : loss = 0.5651, accuracy = 0.5955
-          <img src="img/fine_tune.png" alt="파인튜닝 결과" width="700" height="300">
+            - <img src="img/fine_tune.png" alt="파인튜닝 결과" width="700" height="300">
           
     - 실제 문장 생성 결과
-          <img src="img/result.png" alt="문장생성결과" width="700" height="700">
+        - <img src="img/result.png" alt="문장생성결과" width="700" height="700">
       
     - 실제 적용 페이지
         - ![적용페이지](img/gen_quiz.png)
