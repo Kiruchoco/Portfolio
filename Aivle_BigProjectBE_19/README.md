@@ -49,8 +49,8 @@
     - 프롬프트 엔지니어링의 경우에 특정 단어를 잘못 사용된 예시를 반환하거나, 포맷에 맞게 생성하지 못하는 문제 발생 ⇒ 파인 튜닝을 통해 위 문제 해결
     - 파인튜닝(문장 생성)
       - 사용된 모델 : GPT-3.5-Turbo-1106 모델을 사용함
-         - 이유 : GPT-4.0에 비해 정확도는 떨어질 수 있으나 생성 속도가 빠르기 때문에
-         - 참고자료 : https://aider.chat/docs/benchmarks-speed-1106.html
+      - 이유 : GPT-4.0에 비해 정확도는 떨어질 수 있으나 생성 속도가 빠르기 때문에
+      - 참고자료 : https://aider.chat/docs/benchmarks-speed-1106.html
           
     - 데이터 셋 구성
           - <img src="img/datasets.png" alt="데이터 셋" width="500" height="200">
