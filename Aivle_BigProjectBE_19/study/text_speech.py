@@ -99,7 +99,7 @@ def response_is_correct(text1,text2):
     cosine_sim = cosine_similarity(vectorizer)
     print(cosine_sim[0][1])
     
-    if cosine_sim[0][1]>=0.3:
+    if cosine_sim[0][1]>=0.5:
         return True
     else:
         return False
