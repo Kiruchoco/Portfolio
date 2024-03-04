@@ -14,6 +14,11 @@
 
 ![시스템구성도](img/system_graph.png)
 
+
+### 협업 필터링 알고리즘 성능(데이터 100,000개 기준)
+![협업필터링](img/after_aug.png)
+
+
 ### 사용한 기술스택
 
 - Data Processing : Anaconda, Python Surprise, Numpy, Pandas, SQLite3
@@ -25,3 +30,5 @@
 - SteamWorks API : https://partner.steamgames.com/doc/webapi/ISteamApps#GetAppList
 - Kaggle(game_ratings) : https://www.kaggle.com/datasets/tamber/steam-video-games
 - Kaggle(game_info) : https://www.kaggle.com/datasets/trolukovich/steam-games-complete-dataset
+
+
