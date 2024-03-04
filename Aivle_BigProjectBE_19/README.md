@@ -57,9 +57,8 @@
 - **Whisper를 활용한 STT 모듈 구현**
     - 다른 STT 모듈에 비해 비교적 정확한 성능을 가지고 있음
     - 사용한 모델 : Whisper Large-v2 모델
-    - 실제 Whisper 에서 발표한 성능 지표**(약 6.5% 단어 오류율)
-          - ** https://raw.githubusercontent.com/openai/whisper/main/language-breakdown.svg 참고
-          ![Whisper_graph](img/Whisper_graph.png)
+    - 실제 Whisper 에서 발표한 성능 지표**(약 6.5% 단어 오류율) => ** https://raw.githubusercontent.com/openai/whisper/main/language-breakdown.svg 참고
+      ![Whisper_graph](img/Whisper_graph.png)
       
       
 
