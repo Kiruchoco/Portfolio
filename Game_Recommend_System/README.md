@@ -1,4 +1,4 @@
-# Game_Recommend_System
+# 게임 추천 시스템
 
 ## 프로젝트 정의
 
